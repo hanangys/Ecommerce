@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="cart.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <title>DodolanKu</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">DodolanKu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Catalog</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success bagr" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- slider -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/gambar1.jpg"
+            class="d-block w-100"
+            alt="First slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/gambar2.jpg"
+            class="d-block w-100"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/Digital-Marketing-1.jpg"
+            class="d-block w-100"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end slider -->
+
+    <!-- Product -->
+    <div class="container top">
+      <div class="row">
+        <div class="col-md-4 top">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/Laravel-best-PHP-Framework.jpg"
+              class="card-img-top shop-item-image"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Laravel</h5>
+              <span class="shop-item-price">Rp 250000</span>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary shop-item-button" type="button">
+                Add to chart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 top">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/node.jpeg"
+              class="card-img-top shop-item-image"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Node JS</h5>
+              <span class="shop-item-price">Rp 250000</span>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary shop-item-button" type="button">
+                Add to chart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 top">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/react.jpg"
+              class="card-img-top shop-item-image"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">React</h5>
+              <span class="shop-item-price">Rp 300000</span>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary shop-item-button" type="button">
+                Add to chart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 top">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/Pros-and-Cons-of-CodeIgniter-Framework.jpg"
+              class="card-img-top shop-item-image"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Codeigniter</h5>
+              <span class="shop-item-price">Rp 250000</span>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary shop-item-button" type="button">
+                Add to chart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 top">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/gambar5.jpg"
+              class="card-img-top shop-item-image"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Instagram</h5>
+              <span class="shop-item-price">Rp 200000</span>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary shop-item-button" type="button">
+                Add to chart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 top">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/download.jpg"
+              class="card-img-top shop-item-image"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Internet Marketing</h5>
+              <span class="shop-item-price">Rp 200000</span>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary shop-item-button" type="button">
+                Add to chart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of product -->
+
+    <!-- cart -->
+    <div class="container">
+      <div class="row">
+        <table class="table table-hover">
+          <thead>
+            <tr class="cart-row">
+              <th scope="col" class="cart-item">ITEM</th>
+              <th scope="col" class="cart-price">PRICE</th>
+              <th scope="col" class="cart-quantity">QUANTITY</th>
+            </tr>
+          </thead>
+          <tbody class="cart-items">
+            <div class="cart-total">
+              <strong class="cart-total-title">Total</strong>
+              <span class="cart-total-price">Rp0</span>
+            </div>
+          </tbody>
+        </table>
+        <button class="btn btn-primary btn-purchase">SIMPAN PESANAN</button>
+      </div>
+    </div>
+    <!-- end of cart -->
+
+    <div id="footer" class="bg-primary">
+      <div class="container">
+        <p class="text-white text-center footer2">@copy hayuset</p>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
